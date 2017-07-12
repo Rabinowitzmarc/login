@@ -13,6 +13,15 @@ var userLogin = [
     pass : "password3"
   },
 ];
+
+var btn = document.getElementById("password");
+    btn.addEventListener("keypress", function enterKey(e) {
+    if (e.keyCode == 13) {
+        logMeIn();
+    }
+},false);
+
+
 // HTML line #33 is the trigger that searches for correct username and password values
 function logMeIn() {
 //stores variable username
