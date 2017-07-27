@@ -12,3 +12,7 @@
 	background-color: #d9534f;
 	transition: 0.3s all ease-in-out;
 }
+
+.btn-danger {
+	margin-top: 20px;
+}
